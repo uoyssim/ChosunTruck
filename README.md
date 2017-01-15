@@ -11,15 +11,19 @@ Because this simulator provides an environment similar to a real road, we determ
 * Autonomous driving only works on the expressway.
 
 ## master
-OS: window 7 64bits
-Development Tool: Visual Studio 2015
-OpenCV version: 3.0
+OS: window 7 64bits / Development Tool: Visual Studio 2015 / OpenCV version: 3.0
 
 Because mouse movements or keyboard input do not work in Windows to navigate the truck in Euro Truck Simulator 2, the master version is only available for lane detection.
 
 ## linux
-OS: ubuntu
-OpenCV version: 3.0
+
+OS: ubuntu 16.04 / OpenCV version: 3.0
+
+Before the start, please set your monitor resolution to 1920 * 1080.
+To execute this program, please convert the Euro Truck simulator 2 to window mode and change the window resolution to 1024 * 768.
+Please bring the window to the bottom right corner. As mentioned above, Autonomous driving only works on the expressway.
+Please set the speed between 40 and 70 km/h. And then execute this program.
+
 ```
 g++ -o auto_drive main2.cpp IPM.cpp lineinder.cpp uinput.c `pkg-config opencv --cflags --libs` -std=c++11 -lX11 -Wall -fopenmp -O3 -march=native
 ```

@@ -1,4 +1,4 @@
-# <img src="https://github.com/bethesirius/ChosunTruck/blob/master/README/Logo.png", width="64">조선트럭
+# <img src="https://github.com/uoyssim/ChosunTruck/master/README/Logo.png" width="64">조선트럭
 
 ## 소개
 조선트럭은 [유로 트럭 시뮬레이터 2](https://eurotrucksimulator2.com/)를 위한 자동 주행 솔루션입니다.
